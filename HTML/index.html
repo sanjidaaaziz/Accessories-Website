@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo">
+      <img
+      src="logo.png"
+      alt="logo of Elixir"
+      height="52"
+      width="140"
+    />
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="catagories.html">categories</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+      </nav>
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="cart1.jpg" alt="" />
+          <div class="content">
+            <h3>asymmetric Chain</h3>
+            <span class="price">৳ 350</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="cart2.jpg" alt="" />
+          <div class="content">
+            <h3>Bracelet</h3>
+            <span class="price">৳ 150</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="cart3.jpg" alt="" />
+          <div class="content">
+            <h3>trinity Earring</h3>
+            <span class="price">৳ 350</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="total">total : ৳ 850</div>
+        <a href="#" class="btn">checkout</a>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box" />
+        <input type="password" placeholder="your password" class="box" />
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn" />
+      </form>
+    </header>
+    <!--header section ends-->
+
+    <!--home section starts-->
+    <section class="home" id="home">
+      <div class="content">
+      </br>
+        <h3>the touch of <span>Elegance</span></h3>
+        <p>
+          We're here to decorate you with love. So, let's get elegent with
+          Elixir.
+        </p>
+      </br>
+        </div>
+      </div>
+    </section>
+    <!--home section ends-->
+
+    <!-- features section starts-->
+
+    <section class="features" id="features">
+      <h1 class="heading">our <span>features</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="feature1.png" alt="" />
+          <h3>Premium Accessories</h3>
+          <p>We offer premium quality women accessories with love and authenticity!</p>
+          <a href="premium.html" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="feature2.jpg" alt="" />
+          <h3>free delivery</h3>
+          <p>
+            Delivering all over bangladesh. Also we have free delivery offers!
+          </p>
+          <a href="freedel.html" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="feature3.jpg" alt="" />
+          <h3>easy payments</h3>
+          <p>
+            The payments can be done through bkash, nagad, rocket. We also offer
+            cash on delivery system!
+          </p>
+          <a href="payment.html" class="btn">read more</a>
+        </div>
+      </div>
+    </section>
+    <!--features section ends-->
+
+    <!--product section starts-->
+    <section class="products" id="products">
+      <h1 class="heading">our <span>latest products</span></h1>
+
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="product1.jpg" alt="" />
+            <h3>minimulist multilaye</h3>
+            <div class="price">৳ 390</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="product2.jpg" alt="" />
+            <h3>Hoops earring set</h3>
+            <div class="price">৳ 350</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="product3.jpg" alt="" />
+            <h3>Gold plated ring set</h3>
+            <div class="price">৳ 250</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="product4.jpg" alt="" />
+            <h3>Single pendant</h3>
+            <div class="price">৳ 130</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="product5.jpg" alt="" />
+            <h3>Antique earring set</h3>
+            <div class="price">৳ 450</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="product6.jpg" alt="" />
+            <h3>Adjustable silver rings</h3>
+            <div class="price">৳ 220</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="product7.jpg" alt="" />
+            <h3>pearl stud earring</h3>
+            <div class="price">৳220</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="product8.jpg" alt="" />
+            <h3>deer horn pendant</h3>
+            <div class="price">৳ 130</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--product section ends-->
+
+    <!--catagories section starts-->
+    <!--<section class="categories" id="categories">
+      <h1 class="heading">product <span>categories</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="cat1.jpg" alt="" />
+          <h3>Neckpieces</h3>
+          <p>upto 45% off</p>
+          <a href="Neckpieces.html" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="cat2.jpg" alt="" />
+          <h3>Bracelets</h3>
+          <p>upto 45% off</p>
+          <a href="Bracelets.html" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="cat3.jpg" alt="" />
+          <h3>Earrings</h3>
+          <p>upto 45% off</p>
+          <a href="Earrings.html" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="cat4.jpg" alt="" />
+          <h3>rings</h3>
+          <p>upto 45% off</p>
+          <a href="Rings.html" class="btn">shop now</a>
+        </div>
+      </div>
+    </section>-->
+
+    <!--catagories section ends-->
+    <!--review section starts-->
+    <section class="review" id="review">
+
+      <h1 class="heading"> customer's <span>review</span> </h1>
+  
+      <div class="swiper review-slider">
+  
+          <div class="swiper-wrapper">
+  
+              <div class="swiper-slide box">
+                  <img src="customer1.jpg" alt="">
+                  <p>Purchased products from this shop several times. Everytime got the best one. Products quality are too good. Great service.</p>
+                  <h3>Promeety Progya</h3>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+              </div>
+  
+              <div class="swiper-slide box">
+                  <img src="customer2.jpg" alt="">
+                  <p>Their products are so pretty that i can't keep my eyes off of them. i've been using them foor a long time but they didn't loss a bit of their luster since the first day.</p>
+                  <h3>radia ahmed</h3>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+              </div>
+  
+              <div class="swiper-slide box">
+                  <img src="customer3.jpg" alt="">
+                  <p>Their product's price is so reasonable and the quality no one can beat. Fast delivery service. Gonna buy more and more in future.</p>
+                  <h3>atifa mahmd</h3>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+              </div>
+  
+              <div class="swiper-slide box">
+                  <img src="customer4.jpg" alt="">
+                  <p>They have such a beautiful collection. They got the premium qulity of products. Recommended for purchasing from them.</p>
+                  <h3>faiza kaynat</h3>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+              </div>
+  
+          </div>
+  
+      </div>
+  
+  </section>
+    <!--review section ends-->
+
+    <!-- order section starts  -->
+
+<!--<section class="order" id="order">
+
+  <h1 class="heading">order <span>now</span> </h1>
+
+  <div class="row">
+      
+      <div class="image">
+          <img src="Elixir Landscape.png" alt="">
+      </div>
+
+      <form action="">
+
+          <div class="inputBox">
+              <input type="text" placeholder="name">
+              <input type="email" placeholder="email">
+          </div>
+
+          <div class="inputBox">
+              <input type="number" placeholder="contact">
+              <input type="text" placeholder="payment method">
+          </div>
+
+          <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+
+          <input type="submit" value="order now" class="btn">
+      </form>
+  </div>
+
+</section>-->
+
+<!-- order section ends -->
+<!-- footer section starts  -->
+
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3> E L I X I R <i class="fas fa-shopping-bag"></i> </h3>
+          <p> We're here to decorate you with love. So, let's get elegent with
+            Elixir. Delivering all over Bangladesh!</p>
+          <div class="share">
+              <a href="https://www.facebook.com/elixir.accessories.7" target="'_blank" class="fab fa-facebook-f"></a>
+              <a href="https://instagram.com/elixir__accessories?igshid=YmMyMTA2M2Y=" target="'_blank" class="fab fa-instagram"></a>
+              <a href="https://twitter.com/AzizSanjida?t=u8a-FdM-ZtQvL5djNokgZg&s=09" target="'_blank" class="fab fa-twitter"></a>
+              <a href="https://t.me/sanjidaaziz" target="'_blank" class="fab fa-telegram-plane"></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <a href="#" class="links"> <i class="fas fa-phone"></i> +880 1784533104 </a>
+          <a href="#" class="links"> <i class="fas fa-phone"></i> +880 1622084621 </a>
+          <a href="#" class="links"> <i class="fas fa-envelope"></i>elixir.h8@gmail.com</a>
+          <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Feni, Bangladesh - 3900 </a>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+          <a href="#features" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+          <a href="#products" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+          <a href="catagories.html" target="'_blank" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+          <a href="#review" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> order </a>
+      </div>
+
+      <!--<div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <input type="email" placeholder="your email" class="email">
+          <input type="submit" value="subscribe" class="btn">
+          <img src="b-n-r-cod.webp" class="payment-img" alt=""
+          >
+      </div>-->
+      <div class="box">
+        <h3>Extra links</h3>
+        <a href="login.php" class="links"> <i class="fas fa-arrow-right"></i> Login </a>
+        <a href="register.php" class="links"> <i class="fas fa-arrow-right"></i> Register </a>
+        <a href="orders.php" class="links"> <i class="fas fa-arrow-right"></i> My orders </a>
+        <a href="cart.php" target="'_blank" class="links"> <i class="fas fa-arrow-right"></i> My cart </a>
+        <img src="b-n-r-cod.webp" class="payment-img" alt=""
+        >
+    </div>
+
+  </div>
+
+  <div class="credit"> created by <span> Sanjida Binta Aziz </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!--js file link-->
+    <script src="script.js"></script>
+  </body>
+</html>
